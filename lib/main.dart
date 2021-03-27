@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       // home: MyHomePage(title: 'Platzi Trips'),
       home: Scaffold(
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
                 ReviewList(),
               ],
             ),
-            GradientBack()
+            GradientBack("Pupular")
           ],
         ),
       ),

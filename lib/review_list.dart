@@ -9,16 +9,16 @@ class ReviewList extends StatelessWidget {
       children: <Widget>[
         Review("assets/img/photo.jpg", "Elvis", "1 review 5 photos",
             "There is an amazing place in Sri Lanka"),
-        Review("assets/img/photo.jpg", "Maria", "1 review 5 photos",
+        Review("assets/img/people.jpg", "Maria", "1 review 5 photos",
             "There is an amazing place in Sri Lanka"),
-        Review("assets/img/photo.jpg", "Arcangel", "1 review 5 photos",
+        Review("assets/img/shakira.jpg", "Shakira", "1 review 5 photos",
             "There is an amazing place in Sri Lanka"),
-        Review("assets/img/photo.jpg", "Bad bunny", "1 review 5 photos",
+        Review("assets/img/justin.png", "Justin Turner", "1 review 5 photos",
             "There is an amazing place in Sri Lanka"),
         Review("assets/img/photo.jpg", "Elvis", "1 review 5 photos",
             "There is an amazing place in Sri Lanka"),
-        Review("assets/img/photo.jpg", "El Zorro", "1 review 5 photos",
-            "There is an amazing place in Sri Lanka"),
+        // Review("assets/img/photo.jpg", "El Zorro", "1 review 5 photos",
+        //     "There is an amazing place in Sri Lanka"),
       ],
     );
   }
