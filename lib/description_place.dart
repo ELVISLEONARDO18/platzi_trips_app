@@ -59,7 +59,10 @@ class DescriptionPlaces extends StatelessWidget {
     );
 
     final container_start = Column(
-      children: <Widget>[hedader_container, description],
+      children: <Widget>[
+        hedader_container,
+        description,
+      ],
     );
 
     return (container_start);

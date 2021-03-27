@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:platzitripsapp/description_place.dart';
+import 'package:platzitripsapp/gradient_back.dart';
+import 'package:platzitripsapp/review_list.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,11 +17,19 @@ class MyApp extends StatelessWidget {
       ),
       // home: MyHomePage(title: 'Platzi Trips'),
       home: Scaffold(
-          appBar: AppBar(
-            title: Text('Hola Mundo'),
-          ),
-          body: DescriptionPlaces('Elvis Muñoz', 3,
-              'Descripción del contenido de Elvis muñoz en su blog de programación y redes sociales.')),
+        body: Stack(
+          children: <Widget>[
+            ListView(
+              children: <Widget>[
+                DescriptionPlaces('Elvis Muñoz', 3,
+                    'Descripción del contenido de Elvis muñoz en su blog de programación y redes sociales.'),
+                ReviewList(),
+              ],
+            ),
+            GradientBack()
+          ],
+        ),
+      ),
     );
   }
 }
