@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:platzitripsapp/description_place.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,13 +15,11 @@ class MyApp extends StatelessWidget {
       ),
       // home: MyHomePage(title: 'Platzi Trips'),
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Hola Mundo'),
-        ),
-        body: Center(
-          child: Text('Hola Mundo'),
-        ),
-      ),
+          appBar: AppBar(
+            title: Text('Hola Mundo'),
+          ),
+          body: DescriptionPlaces('Elvis Muñoz', 3,
+              'Descripcion del contenido de elvis muñoz en su blog de programacion y redes sociales.')),
     );
   }
 }
