@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:platzitripsapp/description_place.dart';
-import 'package:platzitripsapp/gradient_back.dart';
-import 'package:platzitripsapp/header_appbar.dart';
-import 'package:platzitripsapp/review_list.dart';
+import 'package:platzitripsapp/platzi_trips.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,20 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: MyHomePage(title: 'Platzi Trips'),
-      home: Scaffold(
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlaces('Elvis Muñoz', 3,
-                    'Descripción del contenido de Elvis muñoz en su blog de programación y redes sociales.'),
-                ReviewList(),
-              ],
-            ),
-            HeaderAppBar(),
-          ],
-        ),
-      ),
+      home: PlatziTrips(),
     );
   }
 }
