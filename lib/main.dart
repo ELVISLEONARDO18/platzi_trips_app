@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
             title: Text('Hola Mundo'),
           ),
           body: DescriptionPlaces('Elvis Muñoz', 3,
-              'Descripcion del contenido de elvis muñoz en su blog de programacion y redes sociales.')),
+              'Descripción del contenido de Elvis muñoz en su blog de programación y redes sociales.')),
     );
   }
 }
