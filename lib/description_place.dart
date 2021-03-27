@@ -10,7 +10,7 @@ class DescriptionPlaces extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final title = Container(
-      margin: EdgeInsets.only(top: 300.0, left: 20.0, right: 20.0),
+      margin: EdgeInsets.only(top: 320.0, left: 20.0, right: 20.0),
       child: Text(
         this.titleName,
         style: TextStyle(
@@ -23,7 +23,7 @@ class DescriptionPlaces extends StatelessWidget {
 
     Widget startW(bool disabled) {
       return Container(
-        margin: EdgeInsets.only(top: 303.0, left: 3.0),
+        margin: EdgeInsets.only(top: 323.0, left: 3.0),
         child: Icon(
           Icons.star,
           color: disabled ? Color(0xFFf2C611) : Colors.grey.shade500,
